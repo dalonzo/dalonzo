@@ -1,0 +1,555 @@
+@media (min-width: 321px) {
+@-webkit-keyframes card-bg {
+	1%   { 
+	opacity: 0; 
+	}
+	100% { 
+	opacity: 1;
+	}
+}
+
+@-webkit-keyframes yellow-icon {
+	1%   { 
+	margin-top: -300px; opacity: 1;
+	-webkit-transform:rotate(10deg) scale(1); 
+	}
+	80% {
+		margin-top: -177px;
+	}
+	100% { 
+	margin-top: -179px; opacity: 1;
+	}
+}
+
+@-webkit-keyframes red-icon {
+	1%   { 
+	margin-top: -300px; opacity: 1;
+	-webkit-transform:rotate(-5deg) scale(1); 
+	}
+	80% {
+		margin-top: -176px;
+	}
+	100% { 
+	margin-top: -179px; opacity: 1;
+	}
+}
+
+@-webkit-keyframes orange-icon {
+	1%   { 
+	margin-top: -300px; opacity: 1;
+	-webkit-transform:rotate(10deg) scale(1); 
+	}
+	80% {
+		margin-top: -176px;
+	}
+	100% { 
+	margin-top: -179px; opacity: 1;
+	}
+}
+
+@-webkit-keyframes green-icon {
+	1%   { 
+	margin-top: -300px; opacity: 1;
+	-webkit-transform:rotate(10deg) scale(1); 
+	}
+	80% {
+		margin-top: -173px;
+	}
+	100% { 
+	margin-top: -179px; opacity: 1;
+	}
+}
+
+@-webkit-keyframes baby-blue-icon {
+	1%   { 
+	margin-top: -300px; opacity: 1;
+	-webkit-transform:rotate(30deg) scale(1); 
+	}
+	80% {
+		margin-top: -174px;
+	}
+	100% { 
+	margin-top: -179px; opacity: 1;
+	}
+}
+
+@-webkit-keyframes blue-icon {
+	1%   { 
+	margin-top: -300px; opacity: 1;
+	-webkit-transform:rotate(-20deg) scale(1); 
+	}
+	80% {
+		margin-top: -178px;
+	}
+	100% { 
+	margin-top: -179px; opacity: 1;
+	}
+}
+
+@-webkit-keyframes purple-icon {
+	1%   { 
+	margin-top: -300px; opacity: 1;
+	-webkit-transform:rotate(10deg) scale(1); 
+	}
+	80% {
+		margin-top: -178px;
+	}
+	100% { 
+	margin-top: -179px; opacity: 1;
+	}
+}
+}
+
+body {
+	background: #f2f2f2;
+	font: normal 16px 'Avenir' Helvetica Neue;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+#wrapper {
+	width: 350px; height: auto;
+	margin: -8px auto;
+}
+
+#bg {
+	background-color: #ffffff;
+	width: 320px; height: 1646;
+	border-style: solid;
+	border-color: #d0d0d0;
+	border-width: 1px;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.07);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-image: url('images/head-bar.png');
+	width: 320px;
+	height: 45px;
+	margin-top: -1px;
+	position: fixed;
+	z-index: 10;
+}
+
+#wwdc-logo {
+	background-image: url('images/wwdc-logo.png');
+	width: 320px;
+	height: 179px;
+}
+
+#countdown-cell {
+	-webkit-border-radius: 6px 6px 6px 6px;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.09);
+	margin-top: 5px;
+	height: 50px;
+	width: 297px;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: 1px;
+	margin-bottom: 20px;
+	margin-top: -50px;
+	margin-left: 10px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+#countdown-text {
+	font-size: 15px;
+	color: #7849a1;
+	text-align: center;
+	margin: 16px 0 0;
+}
+
+#countdown-text number {
+	font-family: 'Avenir-Heavy' Helvetica Neue;
+}
+
+#cell-header {
+	font-family: 'Avenir-Heavy' Helvetica Neue;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 40px 0 0;
+	color: #c6c6c6;
+}
+
+#cell-sep {
+	background-color: #f1f1f1;
+	width: 320px;
+	height: 1px;
+	margin: 6px 0 0 -11px;
+	
+}
+
+.banner a {
+	width: 146px; height: 77px;
+	display: block;
+	text-indent: -9999;
+	position: relative;
+}
+
+#the-verge a {
+	background-image: url('images/the-verge.png');
+	margin: 12px 0 0 0px;
+}
+
+#nine-to-five a {
+	background-image: url('images/nine-to-five.png');
+	margin: -77px 0 0 152px;
+}
+
+#engadget a {
+	background-image: url('images/engadget.png');
+	margin: 6px 0 0 0px;
+}
+
+#macworld a {
+	background-image: url('images/macworld.png');
+	margin: -77px 0 0 152px;
+}
+
+#imore a {
+	background-image: url('images/imore.png');
+	margin: 6px 0 0 0px;
+}
+
+#macstories a {
+	background-image: url('images/macstories.png');
+	margin: -77px 0 0 152px;
+}
+
+#tnw a {
+	background-image: url('images/tnw.png');
+	margin: 6px 0 0 0px;
+}
+
+#techcrunch a {
+	background-image: url('images/techcrunch.png');
+	margin: -77px 0 0 152px;
+}
+
+#live-stream-hero a {
+	width: 300px; height: 122px;
+	display: block;
+	text-indent: -9999;
+	position: relative;
+	background-image: url('images/live-stream-hero.png');
+	margin: 13px 0 0 -1px;
+}
+
+#cells a {
+	width: 297px;
+	display: block;
+	height: 50px;
+	width: 297px;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: 1px;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+.top a {
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.09);
+	margin-top: 12px;
+}
+
+.middle a {
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.09);
+	margin-top: -1px;
+}
+
+.bottom a {
+	-webkit-border-radius: 0px 0px 6px 6px;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.09);
+	margin-top: -1px;
+}
+
+#footer {
+	background-image: url('images/footer.png');
+	width: 175; height: 90px;
+	margin: 50px 0 0 59px;
+}
+
+#icon-text {
+	font-family: 'Avenir-Heavy' Helvetica Neue;
+	font-size: 18px;
+}
+
+.me {
+	background-image: url('images/me-icon.png');
+	height: 45px; width: 45px;
+	margin-top: 3px;
+}
+
+.me-text {
+	margin-top: -35px;
+	margin-left: 54px;
+	color: #626262;
+}
+
+.twitter {
+	background-image: url('images/twitter-icon.png');
+	height: 45px; width: 45px;
+	position: inherit;
+	margin-top: 4px;
+}
+
+.twitter-text {
+	margin-top: -35px;
+	margin-left: 54px;
+	color: #00aced;
+}
+
+.wwdc-icon {
+	background-image: url('images/wwdc-icon.png');
+	height: 45px; width: 45px;
+	position: inherit;
+	margin-top: 3px;
+}
+
+.wwdc-icon-text {
+	margin-top: -35px;
+	margin-left: 54px;
+	color: #626262;
+}
+
+/* WHAT'S NEW */
+.news-macbooks-icon {
+	background-image: url('images/news-macbooks.png');
+	height: 45px; width: 45px;
+	position: inherit;
+	margin-top: 3px;
+}
+
+.news-macbooks-text {
+	margin-top: -35px;
+	margin-left: 54px;
+	color: #626262;
+}
+
+.news-ios-icon {
+	background-image: url('images/news-ios7.png');
+	height: 45px; width: 45px;
+	position: inherit;
+	margin-top: 3px;
+}
+
+.news-ios-text {
+	margin-top: -35px;
+	margin-left: 54px;
+	color: #626262;
+}
+
+.news-x-icon {
+	background-image: url('images/new-x.png');
+	height: 45px; width: 45px;
+	position: inherit;
+	margin-top: 3px;
+}
+
+.news-x-text {
+	margin-top: -35px;
+	margin-left: 54px;
+	color: #626262;
+}
+
+.wallpaper {
+	background-image: url('images/web-app-icon.png');
+	height: 45px; width: 45px;
+	position: inherit;
+	margin-top: 3px;
+}
+
+.wallpaper-text {
+	margin-top: -35px;
+	margin-left: 54px;
+	color: #626262;
+}
+
+@media (max-width: 320px) {
+#wrapper {
+	width: 320px; height: auto;
+	margin: -8px;
+}
+
+#card-bg {
+	background-image: url('images/card-bg.png');
+	width: 320px;
+	height: 179px;
+	margin-top: -1px;
+	position: relative;
+}
+
+.yellow-card {
+	background-image: url('images/yellow-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 9;
+}
+
+.red-card {
+	background-image: url('images/red-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 8;
+}
+
+.orange-card {
+	background-image: url('images/orange-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 7;
+}
+
+.green-card {
+	background-image: url('images/green-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 6;
+}
+
+.baby-blue-card {
+	background-image: url('images/baby-blue-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 5;
+}
+
+.blue-card {
+	background-image: url('images/blue-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 4;
+}
+
+.purple-card {
+	background-image: url('images/purple-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 3;
+}
+
+}
+
+#card-bg {
+	background-image: url('images/card-bg.png');
+	width: 320px;
+	height: 179px;
+	margin-top: -1px;
+	-webkit-animation: card-bg 0.8s ease-in;
+	position: relative;
+}
+
+#cards {
+	width: 320px;
+	height: 155px;
+	display: block;
+	position: absolute;
+}
+
+.yellow-card {
+	background-image: url('images/yellow-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 9;
+	-webkit-animation: yellow-icon 0.8s ease-in, ease-out;
+}
+
+.red-card {
+	background-image: url('images/red-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 8;
+	-webkit-animation: red-icon 0.7s ease-in, ease-out;
+}
+
+.orange-card {
+	background-image: url('images/orange-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 7;
+	-webkit-animation: orange-icon 0.9s ease-in, ease-out;
+}
+
+.green-card {
+	background-image: url('images/green-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 6;
+	-webkit-animation: green-icon 0.8s ease-in, ease-out;
+}
+
+.baby-blue-card {
+	background-image: url('images/baby-blue-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 5;
+	-webkit-animation: baby-blue-icon 0.7s ease-in, ease-out;
+}
+
+.blue-card {
+	background-image: url('images/blue-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 4;
+	-webkit-animation: blue-icon 0.8s ease-in, ease-out;
+}
+
+.purple-card {
+	background-image: url('images/purple-card.png');
+	height: 155px; width: 320px;
+	margin-top: -179px;
+	position: absolute;
+	z-index: 3;
+	-webkit-animation: purple-icon 0.7s ease-in, ease-out;
+}
+
+#current-device {
+	background-image: url('images/current-device.png');
+	width: 20px; height: 20px;
+	position: absolute;
+	margin: 16px 0 0 28px;
+}
+
+@media (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	#current-device {
+	background-image: url('images/current-device.png');
+	width: 20px; height: 20px;
+	position: absolute;
+	margin: 67px 0 0 28px;
+}
+}
+
+@media (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    #current-device {
+	background-image: url('images/current-device.png');
+	width: 20px; height: 20px;
+	position: absolute;
+	margin: 67px 0 0 28px;
+}
+}
+
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    #current-device {
+	background-image: url('images/current-device.png');
+	width: 20px; height: 20px;
+	position: absolute;
+	margin: 117px 0 0 28px;
+}
+}

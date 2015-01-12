@@ -1,0 +1,47 @@
+#black-iphone {
+	background-image: url('images/black-iphone@2x.png');
+	background-size: 100%;
+}
+
+#black-iphone-screen {
+	-webkit-animation-name: screen;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation: screen 0.5s 0.7s 1 alternate ease-in-out forwards;
+	-moz-animation-name: screen;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation: screen 0.5s 0.7s 1 alternate ease-in-out forwards;
+	background-image: url('images/black-iphone-screen@2x.png');
+	background-size: 100%;
+	
+}
+
+#white-iphone {
+	background-image: url('images/white-iphone@2x.png');
+	background-size: 100%;
+}
+
+#white-iphone-screen {
+	-webkit-animation-name: screen;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation: screen 0.5s 0.7s 1 alternate ease-in-out forwards;
+	-moz-animation-name: screen;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation: screen 0.5s 0.7s 1 alternate ease-in-out forwards;
+	background-image: url('images/white-iphone-screen@2x.png');
+	background-size: 100%;
+	
+}
+
+#christian a {
+	background-image: url('images/christian-circle@2x.png');
+	background-size: 100%;
+}
+
+#kolin a {
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	background-image: url('images/kolin-circle@2x.png');
+	background-size: 100%;
+	display: block;
+	text-indent: -9999px;
+}

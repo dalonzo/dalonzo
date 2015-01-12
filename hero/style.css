@@ -1,0 +1,335 @@
+@-webkit-keyframes pulse {
+	1%   { -webkit-transform: scale(0.0); }
+	25%  { -webkit-transform: scale(0.5); }
+	45%  { -webkit-transform: scale(0.9); }
+	63%  { -webkit-transform: scale(1.05); }
+	79%  { -webkit-transform: scale(0.95); }
+	100% { -webkit-transform: scale(1.0); }
+}
+
+@-moz-keyframes pulse {
+	1%   { -webkit-transform: scale(0.0); }
+	25%  { -webkit-transform: scale(0.5); }
+	45%  { -webkit-transform: scale(0.9); }
+	63%  { -webkit-transform: scale(1.05); }
+	79%  { -webkit-transform: scale(0.95); }
+	100% { -webkit-transform: scale(1.0); }
+}
+
+@-webkit-keyframes screen {
+	1%   { -webkit-transform: scale(0.0); opacity: 0; }
+	100% { -webkit-transform: scale(1.0); opacity: 1; }
+}
+
+@-moz-keyframes screen {
+	1%   { -webkit-transform: scale(0.0); opacity: 0; }
+	100% { -webkit-transform: scale(1.0); opacity: 1; }
+}
+
+@-webkit-keyframes left {
+	0%   { margin-left: -1000px; }
+	25% { margin-left: -500px; }
+	45% { margin-left: -20px; }
+	63% { margin-left: 10px; }
+	79% { margin-left: -5px; }
+	100% {	margin-left: 0px; }
+}
+
+@-moz-keyframes left {
+	0%   { margin-left: -1000px; }
+	25% { margin-left: -500px; }
+	45% { margin-left: -20px; }
+	63% { margin-left: 10px; }
+	79% { margin-left: -5px; }
+	100% {	margin-left: 0px; }
+}
+
+@-webkit-keyframes footer {
+	0%   { margin-bottom: 600px; }
+	25% { margin-bottom: 300px; }
+	45% { margin-bottom: 10px; }
+	63% { margin-bottom: -5px; }
+	79% { margin-bottom: 5px; }
+	100% {	margin-bottom: 0px; }
+}
+
+@-moz-keyframes footer {
+	0%   { margin-bottom: 600px; }
+	25% { margin-bottom: 300px; }
+	45% { margin-bottom: 10px; }
+	63% { margin-bottom: -5px; }
+	79% { margin-bottom: 5px; }
+	100% {	margin-bottom: 0px; }
+}
+
+@-webkit-keyframes right {
+	0%   { margin-left: 1000px; }
+	25% { margin-left: 800px; }
+	45% { margin-left: 600px; }
+	63% { margin-left: 545px; }
+	79% { margin-left: 565px; }
+	100% {	margin-left: 560px; }
+}
+
+@-moz-keyframes right {
+	0%   { margin-left: 1000px; }
+	25% { margin-left: 700px; }
+	45% { margin-left: 500px; }
+	63% { margin-left: 435px; }
+	79% { margin-left: 455px; }
+	100% {	margin-left: 450px; }
+}
+
+@-webkit-keyframes FadeIn { 
+	0% { opacity:0; } 
+	100% { opacity:1; } 
+}
+
+@-moz-keyframes FadeIn { 
+	0% { opacity:0; } 
+	100% { opacity:1; } 
+}
+
+
+body {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
+	font-size: 14pt;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	background-color: #ffffff;
+}
+
+::selection 	 	{background: #00c4ee; color: #ffffff;}
+::-moz-selection 	{background: #00c4ee;}
+
+#page {
+	height: 624px; width: 850px;
+	padding: 0px 14px 15px;
+    margin: 0 auto;
+}
+
+#left {
+	-webkit-animation: left 0.5s linear;
+	-moz-animation: left 0.5s linear;
+	position: absolute;
+	width: 235px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+#title {
+	
+	color: #08c3f2;
+	font-weight: bold;
+	font-family: 'Helvetica Neue';
+	font-size: 34px;
+	
+}
+
+#description {
+	
+	color: #181818;
+	font-weight: bold;
+	font-family: 'Helvetica Neue';
+	font-size: 14px; 
+	position: absolute;
+}
+
+#iphone-black-screen {
+	-webkit-animation-name: screen;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation: screen 0.5s 0.7s 1 alternate ease-in-out forwards;
+	-moz-animation-name: screen;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation: screen 0.5s 0.7s 1 alternate ease-in-out forwards;
+	background-image: url('images/black-iphone-5-screen.png');
+	width: 125px;
+	height: 302px;
+	position: absolute;
+	top: 50%;
+	margin-top: -227px;
+	margin-left: 248px;
+	opacity: 0;
+	
+}
+
+#iphone-black {
+	-webkit-animation: pulse 0.5s linear;
+	-moz-animation: pulse 0.5s linear;
+	background-image: url('images/black-iphone-5.png');
+	width: 169px;
+	height: 430px;
+	position: absolute;
+	top: 50%;
+	margin-top: -280px;
+	margin-left: 235px;
+}
+
+#iphone-white-screen {
+	-webkit-animation-name: screen;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation: screen 0.5s 0.7s 1 alternate ease-in-out forwards;
+	-moz-animation-name: screen;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation: screen 0.5s 0.7s 1 alternate ease-in-out forwards;
+	background-image: url('images/white-iphone-5-screen.png');
+	width: 125px;
+	height: 302px;
+	position: absolute;
+	top: 50%;
+	margin-top: -227px;
+	margin-left: 432px;
+	opacity: 0;
+	
+}
+
+#iphone-white {
+	-webkit-animation: pulse 0.5s linear;
+	-moz-animation: pulse 0.5s linear;
+	background-image: url('images/white-iphone-5.png');
+	width: 169px;
+	height: 430px;
+	position: absolute;
+	top: 50%;
+	margin-top: -280px;
+	margin-left: 400px;
+}
+
+#right {
+	-webkit-animation: right 0.5s linear;
+	-moz-animation: right 0.5s linear;
+	text-align: right;
+	width: 275px;
+	top: 50%;
+	margin-top: -91px;
+	margin-left: 560px;
+	position: absolute;
+}
+
+#progress {
+	
+	color: #181818;
+	font-weight: bold;
+	font-family: 'Helvetica Neue';
+	font-size: 20px;
+	
+}
+
+#progress-link a {
+	
+	color: #181818;
+	font-weight: bold;
+	font-family: 'Helvetica Neue';
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#progress-link a:hover {
+
+	color: #08c3f2;
+}
+
+#bottom {
+	
+	-webkit-animation-name: FadeIn;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	-webkit-animation: FadeIn 2s 0.5s 1 alternate ease-in-out forwards ;
+	-moz-animation-name: FadeIn;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 2s;
+	-moz-animation: FadeIn 2s 0.5s 1 alternate ease-in-out forwards ;
+	
+	opacity: 0;
+	top: 50%;
+	margin-top: -95px;
+	position: absolute;
+	margin-left: 310px;
+	
+	
+}
+
+#circles {
+	margin-left: -80px;
+	margin-top: 300px;
+}
+
+#kolin {
+	
+	margin-top: -44px;
+	margin-left: 33px;
+}
+
+#christian a {
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	background-image: url('images/christian-circle.png');
+	width: 41px;
+	height: 44px;
+	display: block;
+	text-indent: -9999px;
+}
+
+#christian a:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+#christian a:active {
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+}
+
+#kolin a {
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	background-image: url('images/kolin-circle.png');
+	width: 41px;
+	height: 44px;
+	display: block;
+	text-indent: -9999px;
+}
+
+#kolin a:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+#kolin a:active {
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+}
+
+#footer {
+	color: #bababa;
+	font-size: 14px;
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+	margin-top: -40px;
+	
+}
+
+#creators {
+	color: #181818;
+	font-size: 14px;
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+}
+
+#creators a.c {
+	
+	text-decoration: none;
+	color: #181818;
+}
+
+
+#creators a.k {
+	
+	text-decoration: none;
+	color: #181818;
+}
+
+#creators a.k:hover, #creators a.c:hover {
+	
+	color: #08c3f2;
+}

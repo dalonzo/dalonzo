@@ -1,0 +1,355 @@
+::selection 	 	{background: rgb(255,220,100);}
+::-moz-selection 	{background: rgb(255,220,100);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,220,100);}
+
+body {
+	background-color: #23262b;	
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#main {
+	margin: 0 auto;
+    padding: 0 30px;
+    width: 830px;
+}
+
+#info {
+	margin-top: 170px;
+	margin-left: 30px;
+}
+
+#avatar a {
+	background-image: url('images/avatar.png');
+	width: 52px; height: 52px;
+	position: absolute;
+	-webkit-transition: all .3s;
+}
+
+#avatar a:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+#avatar a:active {
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+}
+
+#name a {
+	font-family: 'OpenSansBold', sans-serif;
+	position: absolute;
+	color: #47bad8;
+	font-size: 19px;
+	text-decoration: none;
+	margin-top: 80px;
+	text-shadow: 0px 2px rgba(0,0,0,0.31);
+	-webkit-transition: all 0.3s ease-in;
+	text-transform: uppercase;
+}
+
+#name a:hover {
+	color: #ffffff;
+}
+
+#position {
+	font-family: 'OpenSansRegular', sans-serif;
+	position: absolute;
+	color: #ffdc64;
+	font-size: 15px;
+	text-decoration: none;
+	margin-top: 107px;
+	text-shadow: 0px 2px rgba(0,0,0,0.31);
+	text-transform: uppercase;
+}
+
+#separator {
+	background-color: #1d1e21;
+	width: 320px;
+	height: 2px;
+	-webkit-box-shadow: 0px 1px rgba(250,250,250,0.04);
+	margin-top: 145px;
+	float: left;
+	z-index: 0;
+}
+
+#links {
+	margin-top: 165px;
+    font-family: 'OpenSansRegular', sans-serif;
+    line-height: 1.8em;
+    position: absolute;
+    font-size: 16px;
+    margin-left: -40px;
+    text-transform: uppercase;
+    
+}
+
+#links a {
+	color: #e3e3e3;
+	text-decoration: none;
+	-webkit-transition: all 0.15s ease-in;
+	text-shadow: 0px 2px rgba(0,0,0,0.31);
+}
+
+#links a:hover {
+	color: #b8b8b8;
+}
+
+#bg {
+	background-color: #ffffff;
+	width: 500px;
+	float: left;
+	margin-left: 328px;
+	margin-top: -200px;
+	z-index: 1;
+}
+
+.clear {
+	background-color: #dedede;
+	height: 1px;
+	width: 500px;
+	display: block;
+	clear: both;
+}
+
+#text {
+	padding-top: 6px;
+	font-family: 'OpenSansRegular', sans-serif;
+	color: #23262b;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: left;
+	margin-left: 18px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+#text .date a {
+	font-family: 'OpenSansRegular', sans-serif;
+	color: #dedede;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 20px;
+	float: left;
+	-webkit-transition: all 0.18s ease-in;
+	padding-bottom: 24px;
+}
+
+#text .date a:hover {
+	color: #c63d1a;
+}
+
+.caption p {
+	line-height: 26px;
+	width: 415px;
+}
+
+.caption p a {
+	color: #c63d1a;
+	border-bottom: 1px solid #dedede;
+	text-decoration: none;
+    -webkit-transition: all 0.18s ease-in;
+}
+
+p a {
+	color: #c63d1a;
+	border-bottom: 1px solid #dedede;
+	text-decoration: none;
+    -webkit-transition: all 0.18s ease-in;
+}
+
+p a:hover {
+	border-bottom: 1px solid #dedede;
+	color: #ffdc64;
+}
+
+.caption p img {
+	display: block;
+	height: auto;
+	max-width: 490px;
+	min-width: 490px;
+	position: relative;
+	margin-left: -28px;
+	margin-top: 10px;
+	-webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.6);
+	-webkit-transition: all 0.18s ease-in;
+	clear: both;
+}
+
+.caption p a:hover {
+	border-bottom: 1px solid #dedede;
+	color: #ffdc64;
+}
+
+.caption blockquote {
+	margin: 15px 0;
+    padding-left: 20px;
+    border-left: 2px solid #dedede;
+}
+
+#text h3 {
+	font-family: 'OpenSansBold', sans-serif;
+	color: #47bad8;
+	font-size: 19px;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+#photo {
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+#photo .date a {
+	font-family: 'OpenSansRegular', sans-serif;
+	color: #dedede;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 18px;
+	padding-top: 20px;
+	float: left;
+	-webkit-transition: all 0.18s ease-in;
+}
+
+#photo .date a:hover {
+	color: #c63d1a;
+}
+
+#photo .caption {
+	padding-top: 6px;
+	font-family: 'OpenSansRegular', sans-serif;
+	color: #23262b;
+	font-size: 16px;
+	text-decoration: none;
+	width: 430px;
+	text-align: left;
+	margin-left: 18px;
+	line-height: 26px;
+}
+
+
+#photo img {
+	display: block;
+	height: auto;
+	max-width: 500px;
+	min-width: 500px;
+	position: relative;
+	margin-left: 0px;
+	margin-top: 10px;
+	
+	-webkit-transition: all 0.14s ease-in;
+	clear: both;
+
+}
+	
+#photo img:hover {
+
+}
+
+#photo img:active {
+	
+}
+
+#photo .video-frame {
+	display: block;
+	height: auto;
+	max-width: 500px;
+	min-width: 500px;
+	position: relative;
+	margin-left: 0px;
+	margin-top: 10px;
+	-webkit-transition: all 0.18s ease-in;
+	clear: both;
+}
+
+#photo .video-frame iframe {
+	display: block;
+	max-width: 500px;
+	min-width: 500px;
+	position: relative;
+	margin-top: 10px;
+	-webkit-transition: all 0.18s ease-in;
+	clear: both;
+}
+
+#link {
+	padding-top: 26px;
+	font-family: 'OpenSansRegular', sans-serif;
+	color: #23262b;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: left;
+	margin-left: 18px;
+	margin-bottom: 10px;
+	padding-bottom: 45px;
+}
+
+#link .description {
+	line-height: 26px;
+	width: 430px;
+}
+
+#link a.link {
+	font-size: 22px;
+	text-decoration: none;
+	color: #c63d1a;
+	-webkit-transition: all 0.18s ease-in;
+}
+
+#link a.link:hover {
+	color: #ffdc64;
+}
+
+#link .date a {
+	font-family: 'OpenSansRegular', sans-serif;
+	color: #dedede;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 20px;
+	float: left;
+	-webkit-transition: all 0.18s ease-in;
+}
+
+#link .date a:hover {
+	color: #c63d1a;
+}
+
+#note-count {
+	background-color: #dedede;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	height: 18px;
+	font-size: 14px;
+	width: auto;
+	margin-left: 420px;
+	padding-top: 4px;
+	color: #ffffff;
+	font-family: 'OpenSansRegular', sans-serif;
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 32px;
+	margin-bottom: -30px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('http://christiandalonzo.com/tumblr/font/OpenSans-Bold.otf');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('http://christiandalonzo.com/tumblr/font/OpenSans-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
