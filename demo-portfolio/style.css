@@ -94,7 +94,27 @@ a.name:hover{
 	margin-bottom: 40px;
 }
 
+.blockend {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e7eaee;
+	width: 88%;
+	height: auto;
+	margin-bottom: 80px;
+}
+
 .block img {
+	max-height: 774.5px;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+
+.blockend img {
 	max-height: 774.5px;
 	height: auto;
 	width: auto;
@@ -124,4 +144,53 @@ a.projectlink:hover {
 .projectyear {
 	margin-top: 24px;
 	color: #9ca1a7;
+}
+
+@media only screen and (max-width: 664px) {
+	
+	#wrapper {
+	width: auto;
+	margin: 0 auto;
+	padding: 0px;
+	}
+
+	.me {
+	text-align: left;
+	margin: -446px 0 0 34px;
+	}
+
+	a.name {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 15pt;
+	color: #000000;
+	}
+	
+	ul.sociallinks {
+	font-weight: 400;
+	font-size: 11pt;
+	list-style: none;
+	margin: 386px 0 0 27px;
+	padding: 0;
+	text-align: left;
+	}
+
+	ul.sociallinks li {
+	text-decoration: none;
+	}
+
+	ul.sociallinks li a {
+	display: list-item;
+	text-decoration: none;
+	margin: 7px;
+	text-transform: uppercase;
+	color: #000000;
+	opacity: .7;
+	}
+	
+	.description {
+	width: 320px;
+	margin: 40px 0 0 34px;
+	}
+
 }
