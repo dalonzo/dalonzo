@@ -146,7 +146,7 @@ a.projectlink:hover {
 	color: #9ca1a7;
 }
 
-@media only screen and (max-width: 664px) {
+@media only screen and (max-width: 736px) {
 	
 	#wrapper {
 	width: auto;
