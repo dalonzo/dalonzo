@@ -1,0 +1,127 @@
+body {
+	font-family: "San Francisco Display", sans-serif;
+}
+
+#wrapper {
+	width: 650px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+ul.sociallinks {
+	font-weight: 400;
+	font-size: 11pt;
+	list-style: none;
+	margin: 80px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.sociallinks li {
+	display: inline;
+	text-decoration: none;
+}
+
+ul.sociallinks li a {
+	text-decoration: none;
+	margin: 30px;
+	text-transform: uppercase;
+	color: #000000;
+	opacity: .7;
+}
+
+ul.sociallinks li a:hover {
+	opacity: .4;
+}
+
+.me {
+	text-align: left;
+	margin: 88px 0 0 48px;
+}
+
+a.name {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 15pt;
+	color: #000000;
+}
+
+a.name:hover{
+	opacity: .4;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 13pt;
+	color: #0070fe;
+}
+
+.description {
+	width: 320px;
+	margin: -40px 0 0 280px;
+}
+
+.ly {
+	color: #d3d3d3;
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 0 0 2px 0;
+}
+
+.lytext {
+	color: #000000;
+	font-weight: 400;
+	font-size: 15px;
+	margin: 0 0 12px 0;
+}
+
+.work {
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 220px;
+	list-style: none;
+	text-align: center;
+}
+
+.block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e7eaee;
+	width: 88%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.block img {
+	max-height: 774.5px;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+
+.blockdescription {
+	font-size: 15px;
+	padding-bottom: 44px;
+}
+
+.projecttitle {
+	color: #6a6e72;
+}
+
+a.projectlink {
+	color: #6a6e72;
+}
+
+a.projectlink:hover {
+	opacity: 0.4;
+}
+
+.projectyear {
+	margin-top: 24px;
+	color: #9ca1a7;
+}
