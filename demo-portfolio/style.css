@@ -134,6 +134,7 @@ a.name:hover{
 
 .blockdescription {
 	font-size: 15px;
+	padding-top: 44px;
 	padding-bottom: 44px;
 }
 
@@ -152,6 +153,7 @@ a.projectlink:hover {
 .projectyear {
 	margin-top: 24px;
 	color: #9ca1a7;
+	letter-spacing: .1px;
 }
 
 @media only screen and (max-width: 736px)  {
@@ -164,13 +166,13 @@ a.projectlink:hover {
 
 	.me {
 	text-align: left;
-	margin: -446px 0 0 6%;
+	margin: 40px 0 0 6%;
 	}
 
 	a.name {
 	text-decoration: none;
 	font-weight: 700;
-	font-size: 15pt;
+	font-size: 20px;
 	color: #000000;
 	}
 	
@@ -178,7 +180,7 @@ a.projectlink:hover {
 	font-weight: 400;
 	font-size: 11pt;
 	list-style: none;
-	margin: 386px 0 0 6%;
+	margin: 30px 0 0 6%;
 	padding: 0;
 	text-align: left;
 	}
@@ -197,9 +199,18 @@ a.projectlink:hover {
 	}
 	
 	.description {
-	width: 320px;
-	margin: 40px 0 0 6%;
+	max-width: 320px;
+	width: 88%;
+	margin: 40px 0 20px 6%;
 	}
+	
+	.work {
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 90px;
+	list-style: none;
+	text-align: center;
+}
 
 }
 
@@ -217,7 +228,7 @@ a.projectlink:hover {
 
 	.me {
 	text-align: left;
-	margin: -446px 0 0 6%;
+	margin: 40px 0 0 6%;
 	}
 
 	a.name {
@@ -228,8 +239,10 @@ a.projectlink:hover {
 	}
 	
 	ul.sociallinks {
+	font-weight: 400;
+	font-size: 11pt;
 	list-style: none;
-	margin: 386px 0 0 6%;
+	margin: 30px 0 0 6%;
 	padding: 0;
 	text-align: left;
 	}
@@ -239,8 +252,6 @@ a.projectlink:hover {
 	}
 
 	ul.sociallinks li a {
-	font-weight: 400;
-	font-size: 13px;
 	display: list-item;
 	text-decoration: none;
 	margin: 7px 0 7px 0;
@@ -250,10 +261,18 @@ a.projectlink:hover {
 	}
 	
 	.description {
-	width: 320px;
-	margin: 40px 0 0 6%;
+	max-width: 320px;
+	width: 88%;
+	margin: 40px 0 20px 6%;
 	}
 	
+	.work {
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 90px;
+	list-style: none;
+	text-align: center;
+}
 }
 
 	
