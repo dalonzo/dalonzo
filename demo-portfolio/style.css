@@ -157,7 +157,7 @@ a.projectlink:hover {
 @media only screen and (max-width: 736px)  {
 	
 	#wrapper {
-	width: auto;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0px;
 	}
@@ -227,18 +227,7 @@ a.projectlink:hover {
 	color: #000000;
 	}
 	
-	.sociallinks {
-	font-weight: 400;
-	font-size: 13px;
-	list-style: none;
-	margin: 386px 0 0 6%;
-	padding: 0;
-	text-align: left;
-	}
-	
 	ul.sociallinks {
-	font-weight: 400;
-	font-size: 13px;
 	list-style: none;
 	margin: 386px 0 0 6%;
 	padding: 0;
@@ -250,6 +239,8 @@ a.projectlink:hover {
 	}
 
 	ul.sociallinks li a {
+	font-weight: 400;
+	font-size: 13px;
 	display: list-item;
 	text-decoration: none;
 	margin: 7px 0 7px 0;
