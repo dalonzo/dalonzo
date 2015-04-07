@@ -1,6 +1,7 @@
 body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	background-color: #141516;
 }
 
 ::selection {
@@ -32,8 +33,8 @@ ul.sociallinks li a {
 	text-decoration: none;
 	margin: 28px;
 	text-transform: uppercase;
-	color: #000000;
-	opacity: .8;
+	color: #ffffff;
+	opacity: .7;
 }
 
 ul.sociallinks li a:hover {
@@ -57,7 +58,7 @@ a.name {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 20px;
-	color: #000000;
+	color: #ffffff;
 }
 
 a.name:hover{
@@ -67,16 +68,16 @@ a.name:hover{
 .title {
 	font-weight: 500;
 	font-size: 17px;
-	color: #0070fe;
+	color: #e9ff57;
 }
 
 .description {
 	width: 320px;
-	margin: -44px 0 0 298px;
+	margin: -44px 0 0 292px;
 }
 
 .ly {
-	color: #d3d3d3;
+	color: #717578;
 	font-weight: 500;
 	font-size: 13px;
 	letter-spacing: 1px;
@@ -85,10 +86,10 @@ a.name:hover{
 }
 
 .lytext {
-	color: #000000;
+	color: #ffffff;
 	font-weight: 400;
-	font-size: 14px;
-	line-height: 19px;
+	font-size: 15px;
+	line-height: 18px;
 	margin: 0 0 14px 0;
 }
 
@@ -98,23 +99,13 @@ a.name:hover{
 	margin-top: 220px;
 	list-style: none;
 	text-align: center;
-	-webkit-transition-property: margin-top;
-	-moz-transition-property: margin-top;
-	-ms-transition-property: margin-top;
-	-o-transition-property: margin-top;
-	transition-property: margin-top;
-	-webkit-transition-duration: 0.3s;
-	-moz-transition-duration: 0.3s;
-	-ms-transition-duration: 0.3s;
-	-o-transition-duration: 0.3s;
-	transition-duration: 0.3s
 }
 
 .block {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #e7eaee;
+	background-color: #262728;
 	width: 88%;
 	height: auto;
 	margin-bottom: 40px;
@@ -124,7 +115,7 @@ a.name:hover{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #e7eaee;
+	background-color: #262728;
 	width: 88%;
 	height: auto;
 	margin-bottom: 6%;
@@ -151,20 +142,17 @@ a.name:hover{
 }
 
 .blockdescription {
-	font-size: 14px;
+	font-size: 15px;
 	padding-top: 44px;
 	padding-bottom: 44px;
 }
 
 .projecttitle {
-	color: #75787c;
-	font-weight: 500;
-	padding-bottom: 1px;
+	color: #9ca1a7;
 }
 
 a.projectlink {
-	color: #999fa7;
-	font-style: italic;
+	color: #9ca1a7;
 }
 
 a.projectlink:hover {
@@ -172,23 +160,9 @@ a.projectlink:hover {
 }
 
 .projectyear {
-	margin-top: 22px;
-	color: #e7eaee;
+	margin-top: 24px;
+	color: #6a6e72;
 	letter-spacing: .1px;
-	font-weight: 500;
-}
-
-.yearbg {
-	background-color: #b9bfc5;
-	display: block;
-	width: 44px;
-	height: 19px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 3px;
-	padding: 1px 0 1px 0;
-	
 }
 
 @media only screen and (max-width: 736px)  {
@@ -208,7 +182,7 @@ a.projectlink:hover {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 20px;
-	color: #000000;
+	color: #ffffff;
 	}
 	
 	ul.sociallinks {
@@ -229,8 +203,8 @@ a.projectlink:hover {
 	text-decoration: none;
 	margin: 7px 0 7px 0;
 	text-transform: uppercase;
-	color: #000000;
-	opacity: .8;
+	color: #ffffff;
+	opacity: .7;
 	}
 	
 	.description {
@@ -270,7 +244,7 @@ a.projectlink:hover {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 20px;
-	color: #000000;
+	color: #ffffff;
 	}
 	
 	ul.sociallinks {
@@ -291,7 +265,7 @@ a.projectlink:hover {
 	text-decoration: none;
 	margin: 7px 0 7px 0;
 	text-transform: uppercase;
-	color: #000000;
+	color: #ffffff;
 	opacity: .7;
 	}
 	
