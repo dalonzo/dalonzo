@@ -1,0 +1,298 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background-color: #141516;
+}
+
+::selection {
+	background: #e7eaee;
+}
+
+#wrapper {
+	width: 650px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+ul.sociallinks {
+	list-style: none;
+	margin: 80px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.sociallinks li {
+	display: inline;
+	text-decoration: none;
+}
+
+ul.sociallinks li a {
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	margin: 28px;
+	text-transform: uppercase;
+	color: #ffffff;
+	opacity: .7;
+}
+
+ul.sociallinks li a:hover {
+	opacity: .4;
+}
+
+.me {
+	text-align: left;
+	margin: 89px 0 0 36px;
+}
+
+/*
+.photo img {
+	border-radius: 50%;
+	display: block;
+	margin: 90px 0 0 36px;
+}
+*/
+
+a.name {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+a.name:hover{
+	opacity: .6;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 17px;
+	color: #e9ff57;
+}
+
+.description {
+	width: 320px;
+	margin: -44px 0 0 292px;
+}
+
+.ly {
+	color: #717578;
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 0 0 3px 0;
+}
+
+.lytext {
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	margin: 0 0 14px 0;
+}
+
+.work {
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 220px;
+	list-style: none;
+	text-align: center;
+}
+
+.block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #262728;
+	width: 88%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.blockend {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #262728;
+	width: 88%;
+	height: auto;
+	margin-bottom: 6%;
+}
+
+.block img {
+	max-height: 774.5px;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+
+.blockend img {
+	max-height: 774.5px;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+
+.blockdescription {
+	font-size: 15px;
+	padding-top: 44px;
+	padding-bottom: 44px;
+}
+
+.projecttitle {
+	color: #9ca1a7;
+}
+
+a.projectlink {
+	color: #9ca1a7;
+}
+
+a.projectlink:hover {
+	opacity: 0.4;
+}
+
+.projectyear {
+	margin-top: 24px;
+	color: #6a6e72;
+	letter-spacing: .1px;
+}
+
+@media only screen and (max-width: 736px)  {
+	
+	#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	}
+
+	.me {
+	text-align: left;
+	margin: 40px 0 0 6%;
+	}
+
+	a.name {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	color: #ffffff;
+	}
+	
+	ul.sociallinks {
+	font-weight: 400;
+	font-size: 11pt;
+	list-style: none;
+	margin: 30px 0 0 6%;
+	padding: 0;
+	text-align: left;
+	}
+
+	ul.sociallinks li {
+	text-decoration: none;
+	}
+
+	ul.sociallinks li a {
+	display: list-item;
+	text-decoration: none;
+	margin: 7px 0 7px 0;
+	text-transform: uppercase;
+	color: #ffffff;
+	opacity: .7;
+	}
+	
+	.description {
+	max-width: 320px;
+	width: 88%;
+	margin: 40px 0 20px 6%;
+	}
+	
+	.work {
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 90px;
+	list-style: none;
+	text-align: center;
+}
+
+}
+
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+{ 
+	#wrapper {
+	width: auto;
+	margin: 0 auto;
+	padding: 0px;
+	}
+
+	.me {
+	text-align: left;
+	margin: 40px 0 0 6%;
+	}
+
+	a.name {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	color: #ffffff;
+	}
+	
+	ul.sociallinks {
+	font-weight: 400;
+	font-size: 11pt;
+	list-style: none;
+	margin: 30px 0 0 6%;
+	padding: 0;
+	text-align: left;
+	}
+
+	ul.sociallinks li {
+	text-decoration: none;
+	}
+
+	ul.sociallinks li a {
+	display: list-item;
+	text-decoration: none;
+	margin: 7px 0 7px 0;
+	text-transform: uppercase;
+	color: #ffffff;
+	opacity: .7;
+	}
+	
+	.description {
+	max-width: 320px;
+	width: 88%;
+	margin: 40px 0 20px 6%;
+	}
+	
+	.work {
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 90px;
+	list-style: none;
+	text-align: center;
+}
+}
+
+	
+@media only screen and (max-height: 670px) and (min-width: 736px)  {
+	
+	.work {
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 120px;
+	list-style: none;
+	text-align: center;
+	}
+	
+}
