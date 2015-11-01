@@ -225,11 +225,13 @@ a.projectlink:hover {
 	}
 
 	a.name {
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 20px;
-	color: #000000;
+	display: block;
 	}
+	
+	.title {
+	margin: 2px 0 0 0;
+	display: block;
+}
 	
 	ul.sociallinks {
 	font-weight: 400;
