@@ -1,0 +1,39 @@
+#header-bg {
+	background-image: url('images/head-bg@2x.png');
+	background-size: 100%;
+}
+
+#stream-head {
+	background-image: url('images/stream-logo@2x.png');
+	background-size: 100%;
+}
+
+#app-store a {
+	background-image: url('images/app-store-btn-sprite@2x.png');
+	background-size: 100%;
+}
+
+#specs {
+	background-image: url('images/specs@2x.png');
+	background-size: 100%;
+}
+
+#footer-logo a {
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	background-image: url('images/hc-logo-footer@2x.png');
+	background-size: 100%;
+}
+
+#stream-icon a {
+	-webkit-animation: icon 0.5s ease-in, ease-out;
+	-moz-animation: icon 0.5s ease-in, ease-out;
+	background-image: url('images/stream-icon@2x.png');
+	background-size: 100%;
+}
+
+#iphone {
+	background-image: url('images/iphone@2x.png');
+	background-size: 100%;
+}
+
